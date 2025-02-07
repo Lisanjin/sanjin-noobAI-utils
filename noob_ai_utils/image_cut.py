@@ -120,6 +120,6 @@ class ImageCut2NoobAI:
  
     FUNCTION = "image_cut"
  
-    CATEGORY = "image/ImageCut2NoobAI"
+    CATEGORY = "NoobAIUtils/ImageCut2NoobAI"
  
 
