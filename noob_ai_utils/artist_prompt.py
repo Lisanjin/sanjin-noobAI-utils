@@ -27,10 +27,8 @@ class GetArtistStyle:
                 }
 
     def create_prompt(self, image, strength):
-        artist_name = image.split('.')[0]
-
-        print("artist_name",artist_name)
-        print("strength",strength)
+        artist_name = image.split('.')[0].replace('(', '\(').replace(')', '\)')
+        strength = round(strength,1)
 
         if strength != 1:
             result = f"({artist_name} : {strength}),"
