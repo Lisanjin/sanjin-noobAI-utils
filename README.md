@@ -6,7 +6,7 @@
 
 ## GetArtistStyle
 
-快速生成艺术家风格提示词，需要把例图按Danbooru命名规范重命名后，放入comfyUI/custom_nodes/sanjin-noobAI-utils/noob_ai_utils/artist文件夹
+快速生成艺术家风格提示词，需要把例图按Danbooru命名规范重命名后，放入comfyUI/input/artist文件夹
 
 ## CreateEmptyLatent
 
