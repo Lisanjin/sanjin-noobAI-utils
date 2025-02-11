@@ -12,9 +12,10 @@ class GetArtistStyle:
 
     @classmethod
     def INPUT_TYPES(s):
-        # input_dir = folder_paths.get_input_directory()
-        input_dir = folder_paths.get_folder_paths("custom_nodes")[0]
-        input_dir = os.path.join(input_dir, "sanjin-noobAI-utils/noob_ai_utils/artist")
+        input_dir = folder_paths.get_input_directory()
+        # input_dir = folder_paths.get_folder_paths("custom_nodes")[0]
+        # input_dir = os.path.join(input_dir, "sanjin-noobAI-utils/noob_ai_utils/artist")
+        input_dir = os.path.join(input_dir, "artist")
         files = [f for f in os.listdir(input_dir) if os.path.isfile(os.path.join(input_dir, f))]
         return {"required":
                     {
